@@ -1,0 +1,5 @@
+- Create a Singleton `NotificationService`
+- Inject the `TimerService` in the `NotificationService`, as well as a `Logger`
+- Configure the timer programmatically to trigger after 5 seconds...
+  - Save the persons's id instead of the `Person` entity in the timer!
+  - When the timer triggers, lookup the `Person` entity, and print its details to the console

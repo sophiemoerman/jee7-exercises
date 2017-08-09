@@ -1,0 +1,9 @@
+- Create a page named `people.xhtml` based on the template
+- Create a data table that shows the people from the database
+  - Add a Bootstrap style to the table
+      - Hint: use `styleClass="table table-striped"`
+- Add a "Remove" button in the last column of the table
+  - Use this button to delete a person from the database
+      - Hint: style with `styleClass="btn btn-xs btn-danger"`
+      - Hint: add a `<span class="glyphicon glyphicon-remove"></span>` before the button text
+  - What do you do when there are no more people in the database?

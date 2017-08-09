@@ -1,0 +1,3 @@
+- Create a package "rest"
+- Extra:
+  - Call the REST service by creating a client from inside a unit test!

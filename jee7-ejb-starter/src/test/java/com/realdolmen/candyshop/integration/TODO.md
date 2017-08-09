@@ -1,0 +1,2 @@
+- Create unit tests for the remotely accessible methods of your `*Service` EJBs, and test them
+- Create a unit test class based on the `AbstractRemoteIntegrationTest` and test your `RegistrationService`

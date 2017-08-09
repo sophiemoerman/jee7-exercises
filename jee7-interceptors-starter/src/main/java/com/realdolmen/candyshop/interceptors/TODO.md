@@ -1,0 +1,5 @@
+- Create a `MethodTimerInterceptor` with the following properties:
+  - It should record the time in nanoseconds using `System.nanoTime()`
+  - It should log the execution time required for each service method in milliseconds to the console
+  - It is applied on all your services
+  - It is activated through an annotation called `@ActivateTimer`

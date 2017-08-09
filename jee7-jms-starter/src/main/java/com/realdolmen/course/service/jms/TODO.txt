@@ -1,0 +1,7 @@
+TODO Create a PersonMessageDrivenBean
+
+Use the following activationConfig:
+
+@ActivationConfigProperty(propertyName = "destination", propertyValue = "java:jboss/exported/rd/queues/RealDolmenQueue")
+
+This Bean will save all Persons from a PersonList into the database using the PersonServiceBean

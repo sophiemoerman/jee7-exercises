@@ -1,0 +1,1 @@
+- Add a page called `confirm.xhtml` and print the details of the default `Person` using expressions

@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jee7-servlet-starter:war exploded">
+    <output-path>$PROJECT_DIR$/target/jee7-servlet-starter</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jee7-servlet-starter" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/jee7-servlet-starter/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="jee7-servlet-starter/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,1 @@
+- Add the `Messages` and `ErrorMessages` bundles to `src/main/resources`

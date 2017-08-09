@@ -1,0 +1,4 @@
+- Create a `PeopleListController`
+  - Inject the `PersonServiceBean`
+  - Fetch the people from the database when the bean is created
+  - Implement the "Remove" functionality

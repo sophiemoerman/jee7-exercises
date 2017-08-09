@@ -1,0 +1,3 @@
+- Replace the `RegistrationController` with a `RegistrationFlowBean` as `@FlowScoped` component
+- Save the person with address at the end of the flow
+- Make sure you return to the `people.xhtml` page to see the results

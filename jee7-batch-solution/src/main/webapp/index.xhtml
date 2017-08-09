@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+>
+
+<ui:composition template="template.xhtml">
+    <ui:define name="pageContent">
+        <h1>Home</h1>
+        <p>Welcome to the RealDolmen JEE7 Starter Project.</p>
+        <h:link outcome="/people.xhtml" styleClass="btn btn-default">List of people by JSF</h:link>
+        <h:form>
+            <h:commandLink action="#{personBean.startBatchJob}" styleClass="btn btn-default" value="Start Job">
+                <f:ajax render="jobPanel"/>
+            </h:commandLink><br/>
+            <h:panelGroup id="jobPanel">
+                <h:outputText rendered="#{personBean.jobId ne null}" value="Job ID #{personBean.jobId} submitted! Check server output and database for result!"/>
+            </h:panelGroup>
+        </h:form>
+    </ui:define>
+</ui:composition>
+
+</html>

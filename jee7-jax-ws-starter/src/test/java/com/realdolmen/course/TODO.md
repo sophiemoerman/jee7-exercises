@@ -1,0 +1,5 @@
+- Create a new "soap" package
+- Try to access the `.wsdl` file from a browser
+- Try to call the web service from SoapUI
+- Extra:
+  - Call the web service by creating a client from inside a unit test!

@@ -1,0 +1,5 @@
+- Create a `PeopleServlet` configured through an annotation
+  - Inject the `PersonService` into it
+  - Override the `doGet()` method
+  - Fetch all people from the database, and add them on the request scope
+  - Redirect to the JSP page you find in `WEB-INF/views`

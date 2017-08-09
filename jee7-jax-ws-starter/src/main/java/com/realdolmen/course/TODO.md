@@ -1,0 +1,4 @@
+- Create a new "soap" package
+- Create a `PersonSoapService` and `PersonSoapServiceEndpoint` class
+- Use annotations to configure the Web Service in a bottom up approach
+- Retrieve all people from the database

@@ -1,0 +1,13 @@
+TODO Create a PersonMessageDrivenBeanTest by extending RemoteJmsTest
+
+Lookup the ConnectionFactory and Queue:
+
+connectionFactory: jms/RemoteConnectionFactory
+queue: rd/queues/RealDolmenQueue
+
+Credentials:
+
+username: administrator
+password: Azerty123!
+
+Use the method assertPatiently() and count() to test if the persons of your PersonList were saved

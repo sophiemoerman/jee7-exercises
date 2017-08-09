@@ -1,0 +1,4 @@
+- Create a new page `registration.xhtml`
+  - Add a form to the page to let the user fill in his first and last name as well as his birth date
+      - You might need a converter for the birth date, let the trainer help you with this!
+  - Add a command button to navigate to `confirm.xhtml`
