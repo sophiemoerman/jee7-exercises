@@ -3,6 +3,7 @@ package com.realdolmen.candyshop.services;
 import com.realdolmen.candyshop.AbstractWeldContainerTest;
 import org.junit.Before;
 import org.junit.Test;
+import services.PersonService;
 
 import static org.junit.Assert.assertNotNull;
 

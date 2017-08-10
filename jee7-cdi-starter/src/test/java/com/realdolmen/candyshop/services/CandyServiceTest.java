@@ -1,11 +1,9 @@
 package com.realdolmen.candyshop.services;
 
 import com.realdolmen.candyshop.AbstractWeldContainerTest;
-import com.realdolmen.candyshop.web.CandyController;
-import org.jboss.weld.environment.se.Weld;
-import org.jboss.weld.environment.se.WeldContainer;
 import org.junit.Before;
 import org.junit.Test;
+import services.CandyService;
 
 import static org.junit.Assert.assertNotNull;
 

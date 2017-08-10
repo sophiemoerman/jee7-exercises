@@ -2,6 +2,7 @@ package com.realdolmen.candyshop.web;
 
 import com.realdolmen.candyshop.AbstractWeldContainerTest;
 import org.junit.Test;
+import web.CandyController;
 
 import static org.junit.Assert.assertNotNull;
 

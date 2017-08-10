@@ -1,8 +1,10 @@
 package com.realdolmen.candyshop.web;
 
 import com.realdolmen.candyshop.AbstractWeldContainerTest;
-import com.realdolmen.candyshop.domain.Person;
+
+import domain.Person;
 import org.junit.Test;
+import web.PersonController;
 
 import static org.junit.Assert.assertNotNull;
 
