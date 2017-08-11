@@ -74,6 +74,7 @@ public class Person {
 
     public void setBirthDate(Date birthDate) {
         this.birthDate = birthDate;
+        initializeAge();
     }
 
     public Long getAge() {
