@@ -1,6 +1,16 @@
 package com.realdolmen.candyshop.domain;
 
-// TODO: Make into a mapped superclass, not an entity!
+import javax.persistence.MappedSuperclass;
+
+@MappedSuperclass
 public class Tracked {
-    // TODO: add property userCreated (String)
+    private String userCreated;
+
+    public String getUserCreated() {
+        return userCreated;
+    }
+
+    public void setUserCreated(String userCreated) {
+        this.userCreated = userCreated;
+    }
 }
