@@ -45,7 +45,7 @@ public class Person extends Tracked {
     private List<Order> orderHistory = new ArrayList<>();
 
     @PostLoad
-    public void initializeAge() {
+    private void initializeAge() {
         this.age = DateUtils.yearsFrom(birthDate);
     }
 
